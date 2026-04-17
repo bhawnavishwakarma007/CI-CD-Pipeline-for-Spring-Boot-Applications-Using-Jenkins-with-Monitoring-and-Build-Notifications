@@ -246,6 +246,7 @@ Fix:
 
 ### Add Credentials in Jenkins
 
+- Type: Username with password
 - ID: dockerhub
 
 ---
@@ -442,7 +443,9 @@ Add Bot Token Scopes:
 Fill:
 
 - Workspace  
-- Credentials (Bot Token)  
+- Credentials (Bot Token)
+- - Type: Secret Text
+- - ID: slackSend
 - Default Channel  
 - Enable Custom Slack Bot  
 
